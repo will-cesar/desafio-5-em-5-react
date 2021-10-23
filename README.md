@@ -10,6 +10,7 @@ https://youtube.com/playlist?list=PL_kvSTSEFm2CwHCtvTk0llGDvM0L2jx3O
 - [Sobre](#sobre)
 - [Projeto 1 - Lista de Tarefas (todo)](#projeto-1)
 - [Projeto 2 - Sistema de finanças pessoais (expense-tracker)](#projeto-2)
+- [Projeto 3 - Galeria de fotos (gallery)](#projeto-3)
 
 > ## <a name="sobre"></a> Sobre
 - Repositório com 5 projetos diferentes utilizando o React.Js com o TypeScript
@@ -40,6 +41,31 @@ npm start
 - [@types/styled-components](https://www.npmjs.com/package/@types/styled-components) - Pacote de tipagens para o styled-components
 - [styled-components](https://styled-components.com) - Lib para React e React Native que permite estilizar componentes na aplicação
 - [typescript](https://www.typescriptlang.org) - Superset de JavaScript que permite a utilização de tipagens e outros recursos
+
+#### Run App
+```
+npm start
+```
+
+> ## <a name="projeto-3"></a> Projeto 3 - Galeria de fotos (gallery)
+- Projeto de galeria de imagens
+- Nele é possível adicionar e exibir imagens
+- Projeto integrado com o firebase
+- O firebase foi utilizado para armazenar as imagens (Storage)
+- Utilização do .env
+
+#### Dependências
+- [@types/styled-components](https://www.npmjs.com/package/@types/styled-components) - Pacote de tipagens para o styled-components
+- [@types/uuid](https://www.npmjs.com/package/@types/uuid) - Pacote de tipagens da lib uuid
+- [firebase](https://firebase.google.com/?hl=pt) - Plataforma de desenvolvimento de aplicativos móveis da google
+- [styled-components](https://styled-components.com) - Lib para React e React Native que permite estilizar componentes na aplicação
+- [typescript](https://www.typescriptlang.org) - Superset de JavaScript que permite a utilização de tipagens e outros recursos
+- [uuid](https://www.npmjs.com/package/uuid) - Lib que gera hashs aleatórios
+
+#### Pré configurações do Firebase
+- Para funcionar corretamente, é necessário preencher as variáveis de ambiente que pertencem ao firebase
+- O arquivo modelo se encontra na raiz do projeto com o nome de `.env.exemple`
+- É necessário criar um arquivo chamado `.env.local`, copiar as chaves do arquivo modelo e preencher as mesmas com os dados correspondentes a cada chave
 
 #### Run App
 ```

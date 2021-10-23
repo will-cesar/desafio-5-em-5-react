@@ -50,9 +50,10 @@ npm start
 > ## <a name="projeto-3"></a> Projeto 3 - Galeria de fotos (gallery)
 - Projeto de galeria de imagens
 - Nele é possível adicionar e exibir imagens
-- Projeto integrado com o firebase
+- Projeto integrado com o `firebase`
 - O firebase foi utilizado para armazenar as imagens (Storage)
-- Utilização do .env
+- Utilização do `.env`
+- Uso do `styled-components` para aplicar estilos nos componentes
 
 #### Dependências
 - [@types/styled-components](https://www.npmjs.com/package/@types/styled-components) - Pacote de tipagens para o styled-components
@@ -66,6 +67,7 @@ npm start
 - Para funcionar corretamente, é necessário preencher as variáveis de ambiente que pertencem ao firebase
 - O arquivo modelo se encontra na raiz do projeto com o nome de `.env.exemple`
 - É necessário criar um arquivo chamado `.env.local`, copiar as chaves do arquivo modelo e preencher as mesmas com os dados correspondentes a cada chave
+- Dentro do storage do Firebase foi criado uma pasta chamada **images**, onde ficarão armazenadas as imagens, assim sendo essa pasta a principal referência de onde será guardada as imagens
 
 #### Run App
 ```

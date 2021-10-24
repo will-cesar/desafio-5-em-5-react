@@ -11,6 +11,7 @@ https://youtube.com/playlist?list=PL_kvSTSEFm2CwHCtvTk0llGDvM0L2jx3O
 - [Projeto 1 - Lista de Tarefas (todo)](#projeto-1)
 - [Projeto 2 - Sistema de finanças pessoais (expense-tracker)](#projeto-2)
 - [Projeto 3 - Galeria de fotos (gallery)](#projeto-3)
+- [Projeto 4 - Jogo RPG (rpg)](#projeto-4)
 
 > ## <a name="sobre"></a> Sobre
 - Repositório com 5 projetos diferentes utilizando o React.Js com o TypeScript
@@ -73,3 +74,17 @@ npm start
 ```
 npm start
 ```
+
+> ## <a name="projeto-4"></a> Projeto 4 - Jogo RPG (rpg)
+- Jogo RPG feito em React.Js
+- Nele é possível andar para as 4 direções utilizando as teclas A, S, D, W e as setas
+- Há obstáculos onde o personagem não pode ultrapassar 
+- Uso do `styled-components` para aplicar estilos nos componentes
+- Criação de `hooks customizados`
+
+#### Dependências
+- [@types/styled-components](https://www.npmjs.com/package/@types/styled-components) - Pacote de tipagens para o styled-components
+- [styled-components](https://styled-components.com) - Lib para React e React Native que permite estilizar componentes na aplicação
+- [typescript](https://www.typescriptlang.org) - Superset de JavaScript que permite a utilização de tipagens e outros recursos
+
+#### Run App

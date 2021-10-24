@@ -88,3 +88,6 @@ npm start
 - [typescript](https://www.typescriptlang.org) - Superset de JavaScript que permite a utilização de tipagens e outros recursos
 
 #### Run App
+```
+npm start
+```

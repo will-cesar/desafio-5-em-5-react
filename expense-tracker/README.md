@@ -1,4 +1,4 @@
-> # Projeto 1 - Lista de Tarefas
+# Projeto 1 - Lista de Tarefas
 
 - Projeto que consiste em ser uma simples to-do list de tarefas
 - É possível criar uma tarefa, finalizar uma tarefa e listar todas elas

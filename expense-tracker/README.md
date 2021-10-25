@@ -1,10 +1,12 @@
-# Projeto 1 - Lista de Tarefas
+# Projeto 2 - Sistema de finanças pessoais
 
-- Projeto que consiste em ser uma simples to-do list de tarefas
-- É possível criar uma tarefa, finalizar uma tarefa e listar todas elas
+- Projeto de gerenciamento das contas pessoais
+- É possível exibir as contas do mês, receitas e despesas
+- Cada conta é categorizada por data, categoria, título e valor
+- Uso de validações de formulários
 - Uso do `styled-components` para aplicar estilos nos componentes
 
-![home-project](./public/print-project-1.png)
+![home-project](./public/print-project.png)
 
 &nbsp;
 

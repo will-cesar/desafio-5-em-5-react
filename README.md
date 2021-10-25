@@ -39,7 +39,7 @@ npm start
 - Projeto de gerenciamento das contas pessoais
 - É possível exibir as contas do mês, receitas e despesas
 - Cada conta é categorizada por data, categoria, título e valor
-- Uso de datepicker e validações de formulários
+- Uso de validações de formulários
 - Uso do `styled-components` para aplicar estilos nos componentes
 
 #### Dependências

@@ -73,7 +73,7 @@ npm start
 - Para funcionar corretamente, é necessário preencher as variáveis de ambiente que pertencem ao firebase
 - O arquivo modelo se encontra na raiz do projeto com o nome de `.env.exemple`
 - É necessário criar um arquivo chamado `.env.local`, copiar as chaves do arquivo modelo e preencher as mesmas com os dados correspondentes a cada chave
-- Dentro do storage do Firebase foi criado uma pasta chamada **images**, onde ficarão armazenadas as imagens, assim sendo essa pasta a principal referência de onde será guardada as imagens
+- Dentro do storage do Firebase é necessário criar uma pasta chamada **images**, onde ficarão armazenadas as imagens, assim sendo essa pasta a principal referência de onde será guardada as imagens
 
 #### Run App
 ```

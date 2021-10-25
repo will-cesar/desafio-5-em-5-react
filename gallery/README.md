@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# Projeto 3 - Galeria de fotos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Projeto de galeria de imagens
+- Nele é possível adicionar e exibir imagens
+- Projeto integrado com o `firebase`
+- O firebase foi utilizado para armazenar as imagens (Storage)
+- Utilização do `.env`
+- Uso do `styled-components` para aplicar estilos nos componentes
 
-## Available Scripts
+![home-project](./public/print-project.png)
 
-In the project directory, you can run:
+&nbsp;
 
-### `yarn start`
+> ## <a name="dependencias"></a> Dependências
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [@types/styled-components](https://www.npmjs.com/package/@types/styled-components) - Pacote de tipagens para o styled-components
+- [@types/uuid](https://www.npmjs.com/package/@types/uuid) - Pacote de tipagens da lib uuid
+- [firebase](https://firebase.google.com/?hl=pt) - Plataforma de desenvolvimento de aplicativos móveis da google
+- [styled-components](https://styled-components.com) - Lib para React e React Native que permite estilizar componentes na aplicação
+- [typescript](https://www.typescriptlang.org) - Superset de JavaScript que permite a utilização de tipagens e outros recursos
+- [uuid](https://www.npmjs.com/package/uuid) - Lib que gera hashs aleatórios
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+&nbsp;
 
-### `yarn test`
+> ## Pré configurações do Firebase
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Para funcionar corretamente, é necessário preencher as variáveis de ambiente que pertencem ao firebase
+- O arquivo modelo se encontra na raiz do projeto com o nome de `.env.exemple`
+- É necessário criar um arquivo chamado `.env.local`, copiar as chaves do arquivo modelo e preencher as mesmas com os dados correspondentes a cada chave
+- Dentro do storage do Firebase é necessário criar uma pasta chamada **images**, onde ficarão armazenadas as imagens, assim sendo essa pasta a principal referência de onde será guardada as imagens
 
-### `yarn build`
+&nbsp;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> ## Run App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navegar pela linha comando até a pasta do projeto `gallery`
+```
+cd gallery
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instalar o `node_modules` com as [Dependências](#dependencias)
+```
+npm install
+```
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Rodar o projeto
+```
+npm start
+```

@@ -31,6 +31,7 @@ https://youtube.com/playlist?list=PL_kvSTSEFm2CwHCtvTk0llGDvM0L2jx3O
 ```
 npm start
 ```
+&nbsp;
 
 > ## <a name="projeto-2"></a> Projeto 2 - Sistema de finanças pessoais (expense-tracker)
 - Projeto de gerenciamento das contas pessoais
@@ -48,6 +49,7 @@ npm start
 ```
 npm start
 ```
+&nbsp;
 
 > ## <a name="projeto-3"></a> Projeto 3 - Galeria de fotos (gallery)
 - Projeto de galeria de imagens
@@ -75,6 +77,7 @@ npm start
 ```
 npm start
 ```
+&nbsp;
 
 > ## <a name="projeto-4"></a> Projeto 4 - Jogo RPG (rpg)
 - Jogo RPG feito em React.Js
@@ -92,6 +95,7 @@ npm start
 ```
 npm start
 ```
+&nbsp;
 
 > ## <a name="projeto-5"></a> Projeto 5 - Formulário multi-etapas (multiform)
 - Projeto que contém um cadastro de multiplas etapas

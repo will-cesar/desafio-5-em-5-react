@@ -94,9 +94,10 @@ npm start
 ```
 
 > ## <a name="projeto-5"></a> Projeto 5 - Formulário multi-etapas (multiform)
-- Projeto que contém um cadastro de de multiplas etapas
-- Nele é possível se cadastrar e "ganhar" um emprego no fim de todo o processo
-- Verificação de campos do formulário
+- Projeto que contém um cadastro de multiplas etapas
+- Nele é possível se cadastrar e fazer um resumo de todos os dados preenchidos
+- Validação de campos não preenchidos
+- Utilização de contextos para gerenciar o estado da aplicação
 - Uso do `styled-components` para aplicar estilos nos componentes
 - Uso de `react-router-dom` para as rotas
 - Uso de `contextApi` para contextos

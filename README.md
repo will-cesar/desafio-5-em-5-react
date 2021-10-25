@@ -17,6 +17,8 @@ https://youtube.com/playlist?list=PL_kvSTSEFm2CwHCtvTk0llGDvM0L2jx3O
 > ## <a name="sobre"></a> Sobre
 - Repositório com 5 projetos diferentes utilizando o React.Js com o TypeScript
 
+&nbsp;
+
 > ## <a name="projeto-1"></a> Projeto 1 - Lista de Tarefas (todo)
 - Projeto que consiste em ser uma simples to-do list de tarefas
 - É possível criar uma tarefa, finalizar uma tarefa e listar todas elas
